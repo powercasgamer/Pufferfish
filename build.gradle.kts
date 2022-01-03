@@ -42,7 +42,7 @@ paperweight {
     serverProject.set(project(":Pufferfish-Server"))
 
     useStandardUpstream("airplane") {
-        url.set(github("TECHNOVE", "Airplane"))
+        url.set(github("powercasgamer", "Airplane"))
         ref.set(providers.gradleProperty("airplaneRef"))
 
         withStandardPatcher {
